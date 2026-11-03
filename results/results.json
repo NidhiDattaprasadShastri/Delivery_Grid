@@ -1,0 +1,89 @@
+{
+  "full_sparse": {
+    "random": {
+      "avg_return": -6.9459,
+      "std_return": 0.5219388757316316,
+      "delivery_rate": 0.0,
+      "avg_steps": 50.365,
+      "avg_crashes_per_ep": 10.41,
+      "battery_death_rate": 1.0,
+      "n_episodes": 200
+    },
+    "scripted": {
+      "avg_return": 10.776999999999997,
+      "std_return": 0.08421401308570908,
+      "delivery_rate": 1.0,
+      "avg_steps": 17.4,
+      "avg_crashes_per_ep": 0.49,
+      "battery_death_rate": 0.0,
+      "n_episodes": 200
+    },
+    "q_learning": {
+      "avg_return": 10.6731,
+      "std_return": 0.09373041128683904,
+      "delivery_rate": 1.0,
+      "avg_steps": 26.19,
+      "avg_crashes_per_ep": 0.65,
+      "battery_death_rate": 0.0,
+      "n_episodes": 200
+    }
+  },
+  "full_shaped_holding": {
+    "random": {
+      "avg_return": -6.346749999999999,
+      "std_return": 2.465223506601379,
+      "delivery_rate": 0.0,
+      "avg_steps": 50.0,
+      "avg_crashes_per_ep": 10.545,
+      "battery_death_rate": 1.0,
+      "n_episodes": 200
+    },
+    "scripted": {
+      "avg_return": 13.599,
+      "std_return": 0.6180129448482451,
+      "delivery_rate": 1.0,
+      "avg_steps": 17.4,
+      "avg_crashes_per_ep": 0.49,
+      "battery_death_rate": 0.0,
+      "n_episodes": 200
+    },
+    "q_learning": {
+      "avg_return": 22.004700000000003,
+      "std_return": 2.5144973473837675,
+      "delivery_rate": 0.965,
+      "avg_steps": 46.43,
+      "avg_crashes_per_ep": 1.195,
+      "battery_death_rate": 0.035,
+      "n_episodes": 200
+    }
+  },
+  "partial_sparse": {
+    "random": {
+      "avg_return": -6.95625,
+      "std_return": 0.5096061592053217,
+      "delivery_rate": 0.0,
+      "avg_steps": 50.0,
+      "avg_crashes_per_ep": 10.54,
+      "battery_death_rate": 1.0,
+      "n_episodes": 200
+    },
+    "scripted": {
+      "avg_return": 10.776999999999997,
+      "std_return": 0.08421401308570908,
+      "delivery_rate": 1.0,
+      "avg_steps": 17.4,
+      "avg_crashes_per_ep": 0.49,
+      "battery_death_rate": 0.0,
+      "n_episodes": 200
+    },
+    "q_learning": {
+      "avg_return": 10.582,
+      "std_return": 0.11667476162392618,
+      "delivery_rate": 1.0,
+      "avg_steps": 25.05,
+      "avg_crashes_per_ep": 0.8,
+      "battery_death_rate": 0.0,
+      "n_episodes": 200
+    }
+  }
+}

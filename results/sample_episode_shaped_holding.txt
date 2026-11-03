@@ -1,0 +1,527 @@
+step=0 battery=50 holding=False delivered=False
+A . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=-0.010  holding=False  delivered=False
+
+step=1 battery=49 holding=False delivered=False
+. A . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=-0.010  holding=False  delivered=False
+
+step=2 battery=48 holding=False delivered=False
+. . A . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=-0.010  holding=False  delivered=False
+
+step=3 battery=47 holding=False delivered=False
+. . . . . . . .
+. . A . . . . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=-0.010  holding=False  delivered=False
+
+step=4 battery=46 holding=False delivered=False
+. . A . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=-0.010  holding=False  delivered=False
+
+step=5 battery=45 holding=False delivered=False
+. . . . . . . .
+. . A . . . . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=-0.010  holding=False  delivered=False
+
+step=6 battery=44 holding=False delivered=False
+. . . . . . . .
+. . . A . . . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=-0.010  holding=False  delivered=False
+
+step=7 battery=43 holding=False delivered=False
+. . . . . . . .
+. . . . A . . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=-0.010  holding=False  delivered=False
+
+step=8 battery=42 holding=False delivered=False
+. . . . . . . .
+. . . . . A . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=LEFT  reward=-0.010  holding=False  delivered=False
+
+step=9 battery=41 holding=False delivered=False
+. . . . . . . .
+. . . . A . . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=-0.010  holding=False  delivered=False
+
+step=10 battery=40 holding=False delivered=False
+. . . . . . . .
+. . . . . A . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=LEFT  reward=-0.010  holding=False  delivered=False
+
+step=11 battery=39 holding=False delivered=False
+. . . . . . . .
+. . . . A . . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=-0.010  holding=False  delivered=False
+
+step=12 battery=38 holding=False delivered=False
+. . . . . . . .
+. . . . . A . .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=-0.010  holding=False  delivered=False
+
+step=13 battery=37 holding=False delivered=False
+. . . . . . . .
+. . . . . . A .
+. . # # # . . .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=-0.010  holding=False  delivered=False
+
+step=14 battery=36 holding=False delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . A .
+. . . . . . P .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+1.390  holding=True  delivered=False
+
+step=15 battery=35 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DROPOFF  reward=+0.340  holding=True  delivered=False
+
+step=16 battery=34 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DROPOFF  reward=+0.340  holding=True  delivered=False
+
+step=17 battery=33 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DROPOFF  reward=+0.340  holding=True  delivered=False
+
+step=18 battery=32 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DROPOFF  reward=+0.340  holding=True  delivered=False
+
+step=19 battery=31 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DROPOFF  reward=+0.340  holding=True  delivered=False
+
+step=20 battery=30 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DROPOFF  reward=+0.340  holding=True  delivered=False
+
+step=21 battery=29 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=+0.390  holding=True  delivered=False
+
+step=22 battery=28 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=LEFT  reward=+0.390  holding=True  delivered=False
+
+step=23 battery=27 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=+0.390  holding=True  delivered=False
+
+step=24 battery=26 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=LEFT  reward=+0.390  holding=True  delivered=False
+
+step=25 battery=25 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=+0.390  holding=True  delivered=False
+
+step=26 battery=24 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=LEFT  reward=+0.390  holding=True  delivered=False
+
+step=27 battery=23 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=+0.390  holding=True  delivered=False
+
+step=28 battery=22 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=LEFT  reward=+0.390  holding=True  delivered=False
+
+step=29 battery=21 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . @ .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=RIGHT  reward=+0.390  holding=True  delivered=False
+
+step=30 battery=20 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=LEFT  reward=+0.290  holding=True  delivered=False
+
+step=31 battery=19 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+0.390  holding=True  delivered=False
+
+step=32 battery=18 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . .
+. # . . . . . @
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=UP  reward=+0.390  holding=True  delivered=False
+
+step=33 battery=17 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+0.390  holding=True  delivered=False
+
+step=34 battery=16 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . .
+. # . . . . . @
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=UP  reward=+0.390  holding=True  delivered=False
+
+step=35 battery=15 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+0.390  holding=True  delivered=False
+
+step=36 battery=14 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . .
+. # . . . . . @
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=UP  reward=+0.390  holding=True  delivered=False
+
+step=37 battery=13 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+0.390  holding=True  delivered=False
+
+step=38 battery=12 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . .
+. # . . . . . @
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=UP  reward=+0.390  holding=True  delivered=False
+
+step=39 battery=11 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+0.290  holding=True  delivered=False
+
+step=40 battery=10 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+0.390  holding=True  delivered=False
+
+step=41 battery=9 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . @
+. . . . . . . .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+0.390  holding=True  delivered=False
+
+step=42 battery=8 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . @
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+0.390  holding=True  delivered=False
+
+step=43 battery=7 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . .
+. # . . . . . @
+. . . # . # # .
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+0.390  holding=True  delivered=False
+
+step=44 battery=6 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . .
+. # . . . . . .
+. . . # . # # @
+. . . . . . . .
+. . . . . . . D
+>>> action=DOWN  reward=+0.390  holding=True  delivered=False
+
+step=45 battery=5 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . @
+. . . . . . . D
+>>> action=DOWN  reward=+0.390  holding=True  delivered=False
+
+step=46 battery=50 holding=True delivered=False
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . @
+>>> action=DROPOFF  reward=+9.990  holding=False  delivered=True
+
+step=47 battery=50 holding=False delivered=True
+. . . . . . . .
+. . . . . . . .
+. . # # # . . .
+. . . . . . . .
+. # . . . . . .
+. . . # . # # .
+. . . . . . . .
+. . . . . . . A
+[episode ended after 47 steps; delivered=True]
